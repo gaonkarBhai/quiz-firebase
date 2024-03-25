@@ -1,0 +1,64 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    //background: radial-gradient(381.02% 141.42% at 0% 100.00%, #000 -120.5%, #130021 100%);
+    border-bottom: 1px solid #4c4c4c;
+}
+
+.header_username {
+    margin-left: 67%;
+    font-family: 'Jura';
+    color: #d10000;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.header > img {
+    height: 25px;
+    margin-inline: 25px;
+    background-color: transparent;
+    background: transparent;
+}
+
+.header > button {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding-inline: 30px;
+    font-family: "Jura";
+    font-size: 1.3rem;
+    margin-block: 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    margin-right: 50px;
+    padding-block: 5px;
+    cursor: pointer;
+}
+
+.ques_header{
+    margin-top: 15px;
+}
+
+button:hover{
+    color: #4c4c4c;
+    border: 1px solid #4c4c4c;
+}
+ @media (max-width:1350px){
+    .header_username {
+        margin-left: 55%;
+    }
+ }
+
+ @media (max-width:1160px){
+    .header_username {
+        margin-left: 45%;
+    }
+}
+
+.Home_page_username {
+    padding: 15px 0;
+    margin-right: 5%;
+}
+

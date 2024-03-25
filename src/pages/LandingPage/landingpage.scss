@@ -1,0 +1,79 @@
+$text-black: #000404;
+$bg-color: #c4c4c4;
+$text-font: 'Montserrat', sans-serif;
+$bezier: 0.6s cubic-bezier(.19,1,.22,1);
+$highlight-color: #ff2e00;
+
+
+.dashboard-hero {
+        height: auto;
+    
+    h2 {
+        font-size: 20px;
+        font-weight: 600;
+        border-bottom: 2px solid #908f8f;
+        width: 100%;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+    h1 {
+        font-size: 55px;
+        width: 60%;
+        margin-bottom: 5vh;
+    }
+}
+
+.landing_btn{
+    background-color: $highlight-color;
+    color: $text-black;
+    padding-inline: 4vw;
+    text-decoration: none;
+    margin-block-start: 5vh;
+    font-family: $text-font;
+    font-size: 1.2rem;
+    border-radius: 50px;
+}
+
+.event_year{
+    color: $highlight-color;
+}
+
+.B2H_btn:hover{
+    background-color: $bg-color;
+    color: white;
+}
+
+@media screen and (max-width: 500px){
+    .dashboard-nav {
+        padding-top: 20px;
+        display: grid;
+        
+        .user-nav-div {
+            margin-top: 20px;
+            display: grid;
+            gap: 0px;
+            div {
+                font-size: 16px;
+                font-weight: 500;
+            }
+            button {
+                padding: 5px;
+                width: 90vw;
+                border: 1px solid $bg-color;
+            }
+        }
+    }
+    .dashboard-hero {
+        height: auto;
+        min-height: calc(100vh - 162px - 50px);
+    
+        h2 {
+            width: 100%;
+            font-size: 20px;
+        }
+        h1 {
+            font-size: 40px;
+            width: 100%;
+        }
+    }
+}

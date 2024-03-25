@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ques_upload{
+    font-family: 'Jura', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea{
+    background-color: transparent;
+    color: aliceblue;
+    border: 1px solid #4E4FEB;
+    font-size: 25px;
+    border-radius: 5px;
+    font-family: 'Jura', sans-serif;
+    padding: 10px;
+}
+
+::placeholder{
+    font-size: 1.2rem;
+}
+
+
+
+h2{
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+}
+
+input, .input{
+    background-color: transparent;
+    padding: 20px;
+    outline: none;
+    border: 2px solid #d10000;
+    border-radius: 3px;
+    color: aliceblue;
+    font-family: 'Jura', sans-serif;
+    font-size: 1.2rem;
+}
+
+.sub-btn{
+    border: 1px solid #4b0081;
+    background: transparent;
+    padding: 18px;
+    margin-top: 10px;
+    color:#4E4FEB;
+    font-size: 1.25rem;
+    font-family: 'Jura', sans-serif;
+    border-radius: 3px;
+    letter-spacing: 1.2px;
+    text-align: center;
+}
+.sub-btn-not-allowed{
+    text-align: center;
+    border: 1px solid #4b0081;
+    background: #4b0081;
+    padding: 18px;
+    margin-top: 10px;
+    color:#4E4FEB;
+    font-size: 1.25rem;
+    font-family: 'Jura', sans-serif;
+    border-radius: 3px;
+    letter-spacing: 1.2px;
+    cursor: not-allowed;
+}
+
+.sub-btn:hover{
+    background-color: #4E4FEB;
+    color: #fff;
+}
+
+
+/* Add this CSS to your stylesheets */
+.text-white .ant-select-selection-item {
+    color: black;
+    /* Set the color for the selected option text */
+}
+
+.text-white .ant-select-selection-placeholder {
+    color: white;
+
+    /* Set the color for the placeholder text */
+}
+
+/* Optionally, you can also change the background color of the selected option */
+.text-white .ant-select-selection-item {
+        color: white;
+}   

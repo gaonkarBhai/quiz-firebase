@@ -1,0 +1,20 @@
+$text-black: #000404;
+$bg-color: #c4c4c4;
+$text-font: 'Montserrat', sans-serif;
+$bezier: .6s cubic-bezier(.19,1,.22,1);
+$highlight-color: #ff2e00;
+
+
+.footer {
+    text-align: center;    
+    width: 100vw;
+    border-top: 2px solid #aeaeae;
+    z-index: -1;
+    color: $bg-color;
+    p {
+        padding: 15px  0 35px 0;
+        padding-bottom: 0;
+        width: 100%;
+        opacity: 0.5;
+    }
+}

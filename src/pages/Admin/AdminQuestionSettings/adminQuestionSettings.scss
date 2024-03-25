@@ -1,0 +1,50 @@
+/* White text color for the label */
+.tab-label {
+    color: #ffffffa4;
+}
+
+/* Black background with opacity for the active tab */
+.active-tab {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.r-icons{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.ant-collapse-header-text {
+    color: white;
+}
+
+.ant-collapse-expand-icon{
+    color: #6667AB;
+}
+.anticon.anticon-edit{
+    color: #F28500;
+}
+.anticon.anticon-delete{
+    color: #f20000;
+}
+.ant-collapse-content.ant-collapse-content-active{
+    background-color: #0000;
+    color: white;
+}
+.ant-collapse-content-box{
+    border: none;
+    margin-left: 1.5rem;
+}
+.ant-list.ant-list-sm.ant-list-split.ant-list-bordered.ant-list-something-after-last-item{
+    border: 1px dashed rgb(86, 84, 84);
+}
+.list-header{
+    color: #c3bfbf;
+}
+.list-opt{
+    color: #636363;
+}
+.list-opt-answer{
+    color: #86f0a463;
+}
