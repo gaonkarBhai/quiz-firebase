@@ -1,4 +1,3 @@
-Certainly! Here's a README template for your Firebase quiz web application project:
 
 ---
 
