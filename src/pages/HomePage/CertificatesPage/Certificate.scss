@@ -1,0 +1,22 @@
+.quiz_footer_certificate{
+    
+    padding: 10px;
+    
+    .getCertificate{
+        padding: 10px;
+        font-weight: 400;
+        background-color: #dcd8d8;
+        width: 100%;
+        border: 0;
+        outline: 0;
+        &:hover{
+            cursor: pointer;
+            color: black;
+            background-color: white;
+        }
+    }
+
+}
+
+
+

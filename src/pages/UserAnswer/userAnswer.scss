@@ -1,0 +1,60 @@
+$heading-font:'Jura';
+
+.Submition-Container{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+    background-color: #0f0f0f !important;
+}
+
+.Submition-heading{
+    padding-top: 5vh;
+    font-size: 3rem;
+    font-family: $heading-font;
+    margin-block-end: 5vh;
+}
+
+.emoji {
+    height: 25vh;
+    aspect-ratio: 1;
+    margin-block: 1vh;
+    margin-block-end: 3vh;
+}
+
+.para {
+    font-size: 1.5rem;
+    border-bottom: 1px solid #fff;
+    width: 40%;
+    padding-left: 3%;
+    padding-bottom: 2vh;
+}
+
+.Sub-result{
+    color: red;
+}
+
+.Qr-Name{
+    font-size: 2rem;
+    font-family: 'poppins';
+    font-weight: 900;
+    margin-top: 10vh;
+}
+
+.QR-Code-Sub{
+    border: 1px solid white;
+    padding: 10px;
+    height: 50vh;
+    margin-top: 3vh;
+}
+
+.B2H_btn{
+    padding: 10px;
+    background-color: #fff;
+    color: #0f0f0f;
+    text-align: center;
+    margin-block: 5vh 10vh;
+    border-radius: 4px;
+    width: 10vw;
+    font-size: 1rem;
+}

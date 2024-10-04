@@ -1,0 +1,142 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quiz-settings-desc{
+    color: white;
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #393838;
+}
+.quiz-title{
+    color: white !important;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.sub-quiz-title{
+    color: white !important;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+.list-container{
+    background-color: #000000e0;
+    border-radius: 10px;
+}
+.list-item:hover{
+background-color: #161616;
+}
+
+.drawer{
+    background-color: #000000 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .visibility{
+        padding: 5px;
+        background-color: #393838;
+        border-radius: 5px;
+    }
+}
+
+.drawer{
+    // height: auto;
+
+    .r-side {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        .title{
+            font-size: 2rem;
+            color: #7b7b7b;
+            border-bottom: 1px dashed magenta;
+        }
+        .quiz-img{
+            border-radius: 4px;
+            margin: 1rem 0;
+        }
+        .sec-r-side{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
+            font-size: 1rem;
+        }
+        p{
+            letter-spacing: 1px;
+            margin: 10px 0;
+            strong{
+                color: #7b7b7b;
+            }
+            span{
+                color: #9c9c9c;
+            }
+        }
+        .button{
+            margin-top: 1rem;
+        }
+    }
+
+}
+
+.list-footer{
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    margin-left: 4rem;
+    .anticon.anticon-eye-invisible,.anticon.anticon-eye{
+        font-size: 1.5rem;
+        margin-left: 5px;
+    }
+}
+.ant-pagination-item.ant-pagination-item-2,.ant-pagination-item.ant-pagination-item-1{
+    // color: white;
+    background-color: #fff !important;
+}
+.ant-pagination-item-link{
+    color: white;
+    background-color: #fff!important;
+}
+
+.anticon.anticon-download{
+    color: #00ff95e3;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-left: 5px;
+    // background-color: #00ff9554;
+    // padding: 2px;
+    // border-radius: 50%;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color: rgba(0, 4, 255, 0.581);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding:2px;
+    cursor: pointer;
+}
+// time not working... wtf
+input[type="time"]::-webkit-calendar-picker-indicator {
+    background-color: blue;
+    background-color: rgba(0, 4, 255, 0.581);
+        color: white;
+        border: none;
+        border-radius: 50%;
+        padding: 2px;
+        cursor: pointer;
+}

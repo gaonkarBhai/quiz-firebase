@@ -1,0 +1,42 @@
+.profile-container{
+    margin: 1.75vh auto auto 5vw;
+    font-size: 1.4rem;
+    font-family: 'Jura';
+    color: var(--black-light-color);
+    display: flex;
+    flex-direction: column;
+    gap: 3.5vh;
+    width: 50%;
+
+    label{
+        color: #fff;
+        font-size: 1.2rem;  
+    }
+
+    button{
+        color: #fff;
+        background-color: #4E4FEB;
+        font-family: 'Jura';
+        font-size: 1.5rem;
+        border: 0;
+        outline: 0;
+        padding: 1vh 1vw;
+        margin-bottom: 4vh;
+    }
+}
+
+.profile-title{
+    color: #D10000;
+    font-family: 'Jura';
+    font-size: 2rem;
+    border-bottom: 2px solid #908f8f;
+    width: 18%;
+    padding-bottom: 5px;
+}
+.profile-input-box{
+    margin-top: -2.2vh;
+    cursor:not-allowed;
+    color: #908f8f;
+    padding: 2vh 1vw;
+}
+

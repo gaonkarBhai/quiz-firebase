@@ -1,0 +1,20 @@
+.results_csv{
+    background-color: #4b0081;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    float: right;
+    margin-bottom: 2vh;
+    &:hover{
+        background-color: #e04ee6;
+        color: white;
+    }
+}
+
+.select_quiz_msg{
+    font-size: 2rem;
+    margin: 5vh 15vw;
+}

@@ -1,0 +1,202 @@
+//----------------------------------------OLD Cards CSS ------------------------------------------------
+body {
+    padding: 0 0;
+}
+
+.homepage-body {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    margin-right: 30px;
+
+}
+
+.hp-container {
+    padding-top: 50px;
+    padding-left: 50px;
+    // border-radius: 20px;
+    width: 100%;
+    // display: flex;
+    flex-direction: column;
+    // background-color: #0d1117;
+}
+
+.hp-username {
+    color: var(--red-clr);
+    font-family: 'Jura';
+}
+
+// .quiz-box{
+//     border:1px solid #4c4c4c;
+//     display: flex;
+//     flex-direction: column;
+//     gap:1vh;
+//     align-items: center;
+//     padding: 12px;
+// }
+
+// .quiz-img {
+//     height: 18vh;
+//     width: 14vw;
+// }
+
+.hp-quiz-title {
+    margin-top: 2vh;
+    font-size: 1.4rem;
+    font-family: 'Jura';
+    color: #DCE9EA;
+    padding-inline-start: 1vw;
+}
+
+.hp-quiz-btn {
+    margin-bottom: 1.5vh;
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 0.5vh 1.5vw;
+    margin-right: 1.5vw;
+    background: #252525;
+    border-radius: 5px;
+}
+
+.hp-quiz-btn:hover {
+    background-color: rgb(161, 161, 161);
+    color: black;
+    border:0;
+}
+
+.hp-quiz-btn-disabled {
+    margin-bottom: 1.5vh;
+    color: #ffffffbd;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid rgba(255, 255, 255, 0.603);
+    padding: 0.5vh 1.5vw;
+    margin-right: 1.5vw;
+    background: #aaa0a0d3;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
+
+.Logout_msg {
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+//----------------------------------------New Cards CSS ------------------------------------------------
+
+.quizes_container {
+    height: auto;
+    min-height: calc(80vh - 83px - 40.8px);
+    margin-bottom: 8vh;
+    padding-bottom: 5vh;
+    width: max-content;
+
+
+    .quiz_con_heading {
+        margin: 2.5vh 0;
+        font-size: 1.1rem;
+        font-family: 'Jura';
+    }
+
+    .quiz_cards_stack {
+        display: flex;
+        gap: 4vw;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 75vw;
+    }
+
+    .quiz-box {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #4c4c4c;
+        margin-top: 0.5vh;
+        border-radius: 8px;
+        min-height: 40vh;
+        transition: transform 0.3s ease-in-out;
+    }
+
+
+    .quiz-img {
+        height: 20vh;
+        width: auto;
+        min-width: 18vw;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .quiz_start {
+        color: #828486;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 5px;
+        padding-inline-start: 1vw;
+        margin-block: 2vh 1vh;
+
+        .quiz_time {
+            color: var(--red-clr);
+        }
+    }
+
+    .quiz_description {
+        color: #828486;
+        font-size: 0.8rem;
+        display: flex;
+        align-items: center;
+        width: auto;
+        gap: 5px;
+        max-width: 18vw;
+        padding-inline: 1.25vw;
+        margin-block: 2vh 1vh;
+    }
+
+    .quiz_footer {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(76, 76, 76, 0.45);
+        /* Adjust the alpha value for transparency */
+        margin-top: auto;
+        padding-top: 2vh;
+
+
+        .quiz_TimeLimit {
+            font-size: 1.25rem;
+            margin-left: 1.25vw;
+            margin-top: 0.5vh;
+        }
+    }
+
+
+}
+
+.quiz-box:hover {
+    transform: scale(1.05);
+    /* Slightly increase the size on hover */
+    box-shadow: 2px 2px 10px 2px rgba(113, 113, 113, 0.3);
+    /* Add a subtle shadow effect */
+}
+
+
+.Logout_msg_hp {
+    display: flex;
+    margin-top: 5vh;
+    font-size: 2rem;
+    font-style: italic;
+
+}
+
+#hp_register_btn {
+    background: #D10000;
+    text-decoration: none;
+    padding-inline: 4vw;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-family: 'Jura';
+    font-weight: bolder;
+}

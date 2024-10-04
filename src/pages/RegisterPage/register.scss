@@ -1,0 +1,10 @@
+.register_img{
+    margin-top: 15vh;
+    margin-inline-start: 8vw;
+    display: inline; 
+}
+.signup-form{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px !important;
+}
